@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"
+        <title>My First Webpage</title>
+        <link rel="stylesheet" href="styles.css">
+        <title>My Personal Web Page</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <h1> Welcome to My Personal Web Page</h1>
+            <h2> About Me</h2>
+        </header>
+        <p>Hello, I'm Juan Felipe Fonseca I am an Environmental and Sanitary Engineer, with a diploma in Business Administration, and currently, I am a student of computer programming at Georgian College. This is my personal website where I showcase my work and share my journy.</p>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <article class="images">
+                <article class="images-article">
+                <img src="assests/ing.jpg" alt="Environmental engineer"> 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1DuMnzhwxAA?si=I9e7_gKYHgS-Su3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <article class="layer">
+                    <h3>Environmental engineer</h3>
+                </article>
+            </article>
+            <article class="images">
+                <article class="images-article">
+                <img src="assests/Business-Adm.jpg" alt="Business Administrator"> 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UtbfATNSePk?si=fqMyGQmLJAvavK1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <article class="layer">
+                    <h3>Business Administrator</h3>
+                </article>
+            </article>
+            <article class="images">
+                <article class="images-article">
+                <img src="assests/programmer.jpg" alt="Programmer">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sDgzbdcf31g?si=XVELgr9EfP6bwA0L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                <article class="layer">
+                    <h3>Programmer</h3>
+                </article>
+            </article>
+            <a href="https://cat.georgiancollege.ca/programs/cmpg/">For More information click on this link</a>
+        </section>
+        <section id="Contact">
+            <h2>Contact</h2>
+           <form>
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <Label for="name">Your Name</Label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="number" required>
+                <Label for="number">Phone no.</Label>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <Label for="email">Email id</Label>
+            </div>
+            
+            <div class="input-group">
+                <textarea id="message" rows="8" required></textarea>
+                <Label for="message">Your Messeage</Label>
+            </div>
+           <button type="submit">SUBMIT</button>
+            
+           </form>
+        </section>
+        <footer>
+            <p>&copy; 2023 Juan Felipe Fonseca Pena. All rigths reserved.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(assests/istockphoto-1205460637-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: rgba(39, 167, 77, 0.929);
+    text-align: center;
+}
+ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, ul li:hover 
+{
+    background: #28fa03e9;
+    border-radius: 3px;
+}
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+  }
+  .images-article{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  .images-article img{
+    width: 300px;
+    height: 300px;
+
+  }
+
+.layer{
+    background: transparent;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(140, 215, 140, 0.7);
+}
+.layer h3{
+    width: 300px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+  }
+  form{
+    width: 90%;
+    max-width: 600px;
+  }
+  .input-group{
+    margin-bottom: 30px;
+    position: relative; 
+  }
+  input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #000000;
+    background: transparent;
+    font-size: 15px;
+  }
+  label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #000000;
+    cursor: text;
+    transition: 0.5s;
+  }
+  button{
+    padding: 10px 0;
+    color: #000000;
+    outline: none;
+    background: transparent;
+    border: 1px solid #000000;
+    width: 100%;
+    cursor: pointer
+  }
+  input:focus~label,
+  input:valid~label,
+  textarea:focus~label,
+  textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+
+  }
